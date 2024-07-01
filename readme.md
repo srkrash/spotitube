@@ -8,7 +8,9 @@
 </p>
 SpotiTube é uma aplicação simples que recebe as informações de caminho para salvamento e o link da playlist do Spotify. A aplicação consulta as músicas da playlist no Youtube e é feito o download do primeiro resultado apresentado com formato .mp3.
 <br>
-<img src="https://i.imgur.com/k2jdFWG.png" alt="SpotiTube Logo" style="width:400px; text-align=center"/>
+<p align="center">
+<img src="https://i.imgur.com/k2jdFWG.png" alt="SpotiTube Logo" style="width:400px;"/>
+</p>
 
 ## Instalação / Execução
 Com o python instalado, apenas execute o arquivo spotitube.py:
@@ -61,6 +63,20 @@ pip install PySimpleGUI
 ```sh
 pip install deepmerge
 ```
+
+## Downloads
+
+<p>
+  Caso você queira, pode fazer o download do executável abaixo:
+</p>
+
+<a href="SpotiTube.rar">
+  
+```
+SpotiTube.rar
+```
+
+</a>
 
 <p align="center">
   <img alt = "GitHub language count" src="https://img.shields.io/github/languages/count/srkrash/spotitube">
