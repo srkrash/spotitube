@@ -18,7 +18,7 @@ python3 spotitube.py
 
 Caso queira criar um executável, utilize o <a href="https://pypi.org/project/pyinstaller/">PyInstaller</a> e o comando:
 ```sh
-pyinstaller "spotitube.py" -F -i "data/icon.ico" -n SpotiTube --windowed
+pyinstaller "spotitube.py" -F -i "spotitube.ico" -n SpotiTube --windowed
 ```
 
 ## Exemplo de utilização
