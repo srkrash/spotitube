@@ -208,8 +208,8 @@ def main() -> None:
     token: str = spotify_auth()
 
     layout: list[list[sg.Element]] = [
-        [sg.Text('Path:'), sg.InputText(key='-PATH-'), sg.FolderBrowse()],
-        [sg.Text('Playlist link:'), sg.InputText(key='-LINK-')],
+        [sg.Text('Save path:', size=(10,1)), sg.InputText(key='-PATH-'), sg.FolderBrowse()],
+        [sg.Text('Playlist link:', size=(10,1)), sg.InputText(key='-LINK-')],
         [sg.HorizontalSeparator()],
         [sg.Text('', key='-OUTPUT-', visible=False)],
         [sg.ProgressBar(100, orientation='h', size=(1, 20),
@@ -297,3 +297,6 @@ def reset_window(window: sg.Window) -> None:
 
 if __name__ == '__main__':
     main()
+
+
+# pyinstaller "spotitube.py" -F -i "data/icon.ico" -n SpotiTube --windowed
